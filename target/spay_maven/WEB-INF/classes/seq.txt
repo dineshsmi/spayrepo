@@ -1,0 +1,48 @@
+DROP   SEQUENCE payment_setup_Seq;
+CREATE SEQUENCE payment_setup_Seq INCREMENT BY 1 START WITH 100 MINVALUE 1 NOCYCLE CACHE 20 NOORDER;
+-----------------------------------------------
+DROP   SEQUENCE merchant_Seq;
+CREATE SEQUENCE merchant_Seq INCREMENT BY 1 START WITH 100 MINVALUE 1 NOCYCLE CACHE 20 NOORDER;
+-----------------------------------------------
+DROP   SEQUENCE admin_Seq;
+CREATE SEQUENCE admin_Seq INCREMENT BY 1 START WITH 100 MINVALUE 1 NOCYCLE CACHE 20 NOORDER;
+-----------------------------------------------
+DROP SEQUENCE currency_code_Seq;
+CREATE SEQUENCE currency_code_Seq INCREMENT BY 1 START WITH 100 MINVALUE 1 NOCYCLE CACHE 20 NOORDER;
+-----------------------------------------------
+DROP SEQUENCE REAL_TRANSACTION_Seq;
+CREATE SEQUENCE REAL_TRANSACTION_Seq INCREMENT BY 1 START WITH 100 MINVALUE 1 NOCYCLE CACHE 20 NOORDER;
+-----------------------------------------------
+DROP SEQUENCE otpmessage_Seq;
+CREATE SEQUENCE otpmessage_Seq INCREMENT BY 1 START WITH 100 MINVALUE 1 NOCYCLE CACHE 20 NOORDER;
+------------------------------------------------
+DROP SEQUENCE product_form_Seq;
+CREATE SEQUENCE product_form_Seq INCREMENT BY 1 START WITH 100 MINVALUE 1 NOCYCLE CACHE 20 NOORDER;
+---------------------------------------------
+DROP SEQUENCE fees_settings_Seq;
+CREATE SEQUENCE fees_settings_Seq INCREMENT BY 1 START WITH 100 MINVALUE 1 NOCYCLE CACHE 20 NOORDER;
+--------------------------------------------
+DROP SEQUENCE ASSIGN_RIGHTS_Seq;
+CREATE SEQUENCE ASSIGN_RIGHTS_Seq INCREMENT BY 1 START WITH 100 MINVALUE 1 NOCYCLE CACHE 20 NOORDER;
+--------------------------------------------
+DROP SEQUENCE user_reg_Seq;
+CREATE SEQUENCE user_reg_Seq INCREMENT BY 1 START WITH 100 MINVALUE 1 NOCYCLE CACHE 20 NOORDER;
+-------------------------------------------
+DROP SEQUENCE audit_trial_Seq;
+CREATE SEQUENCE audit_trial_Seq INCREMENT BY 1 START WITH 100 MINVALUE 1 NOCYCLE CACHE 20 NOORDER;
+-------------------------------------------
+DROP SEQUENCE refund_adjust_Seq;
+CREATE SEQUENCE refund_adjust_Seq INCREMENT BY 1 START WITH 100 MINVALUE 1 NOCYCLE CACHE 20 NOORDER;
+-------------------------------------------
+DROP SEQUENCE security_Seq;
+CREATE SEQUENCE security_Seq INCREMENT BY 1 START WITH 100 MINVALUE 1 NOCYCLE CACHE 20 NOORDER;
+------------------------------------------------
+DROP SEQUENCE acc_adj_Seq;
+CREATE SEQUENCE acc_adj_Seq INCREMENT BY 1 START WITH 100 MINVALUE 1 NOCYCLE CACHE 20 NOORDER;
+------------------------------------------------
+DROP SEQUENCE branch_Seq;
+CREATE SEQUENCE branch_Seq INCREMENT BY 1 START WITH 100 MINVALUE 1 NOCYCLE CACHE 20 NOORDER;
+------------------------------------------------
+DROP SEQUENCE dep_des_Seq;
+CREATE SEQUENCE dep_des_Seq INCREMENT BY 1 START WITH 100 MINVALUE 1 NOCYCLE CACHE 20 NOORDER;
+-------------------------------------------------

@@ -1,0 +1,24 @@
+body{background:#d6dae0 url(../img/bg.jpg) center top no-repeat; padding-top:100px; font-family: 'Open Sans Condensed', sans-serif;}
+#container{width:1000px; margin:auto;}
+#container h1{font-size:35px; font-weight:bold; padding:0; margin:0; color:#525458}
+#container p{font-size:14px; color:#737171; font-family: sans-serif; text-align:justify; line-height:22px; padding:20px 0 0; margin:0}
+#container .fleft{width:50%; float:left; margin-right:80px;}
+#container .fright{width:42%; float:left;}
+#container .loginbox{background:#2b569b url(../images/blue.jpg) center top no-repeat; border-radius:20px; padding:10px 0; box-shadow:5px 6px 10px -4px #666;}
+#container .loginbox h2{text-align:center; border-bottom:#4f97df 1px solid; padding:0 0 20px; margin-bottom:20px;}
+#container p.small{background:#F00; color:#fff; padding:5px 10px; margin:5px 0; border-radius:5px;}
+#container ul{margin:0; padding:0}
+#container ul.formfield {}
+#container ul.formfield li{margin:0; padding:10px 30px ; list-style:none;}
+#container ul.formfieldforgetpwd{}
+#container ul.formfieldforgetpwd li{margin:0; padding:10px 30px ; list-style:none;}
+#container ul.formfieldforgetpwd li input[type="text"]{width:100%; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px;; padding:10px; border:0; outline:none;font-size:15px;}
+#container ul.formfield li input[type="text"]{width:100%; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px;; padding:10px; border:0; outline:none; text-transform:uppercase;  font-size:15px; background:#fff url(../img/user-icn.png) right 8px no-repeat;}
+#container ul.formfield li input[type="password"]{width:100%; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px;; padding:10px; border:0; outline:none; text-transform:uppercase;  font-size:15px; background:#fff url(../img/password-icn.png) right 8px no-repeat;}
+.login_btn{background:#e72d2e; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; padding:10px 22px; color:#fff; border:0; outline:none; text-transform:uppercase; font-weight:bold; font-size:15px; font-family:Arial, Helvetica, sans-serif; box-shadow:1px 1px 1px #000; box-shadow:1px 1px 0px #222; cursor:pointer; float:right;}
+.login_btn:hover{background:#d11718;}
+.clear{clear:both; width:0; height:0; overflow:hidden;}
+#container .ftrdiv{border-top:#4f97df 1px solid; padding:15px 0 12px 0; margin:20px 0 0;}
+#container .ftrdiv a{color:#fff; text-decoration:none; padding:0 30px; font-family:Arial, Helvetica, sans-serif; font-size:14px;}
+#container .ftrdiv a:hover{color:#fff; text-decoration:underline;}
+#container .footer{text-align:right; color:#989898; font-size:14px; font-family:Arial, Helvetica, sans-serif; padding:30px 0}

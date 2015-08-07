@@ -1,0 +1,56 @@
+/* here you can put your own css to customize and override the theme */
+
+/***
+Rounded Portlets
+***/
+/*
+.portlet {
+	border-radius: 4px !important;
+}
+
+.portlet .portlet-title {
+	border-radius: 4px 4px 0px 0px !important;
+}
+
+.portlet .portlet-body,
+.portlet .portlet-body .form-actions  {
+	border-radius: 0px 0px 4px 4px !important;
+}
+*/
+a:hover{ text-decoration:none;}
+.d_head_box{padding:15px;}
+.d_head_box h3{font-size:17px; margin:0px; color:#fff;}
+.d_head_box h4{font-size:17px; margin:0px; color:#fff; margin:10px 0px 0px 0px; font-weight:bold;}
+.dashboard-stat-light{ min-height:114px; padding-bottom:0px;}
+
+.d_new_pymt{}
+.d_new_pymt h5{color:#14b9d6; font-size:20px;}
+
+.dashboard-stat .details {
+  position: absolute;
+  left: 15px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.dashboard-stat .details .number {
+  padding-top: 10px;
+  text-align: left;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  margin-bottom: 0px;
+  font-weight: 300;
+}
+.dashboard-stat .details .number span {
+	display: block;
+	padding-left: 5px;
+	font-size: 16px;
+}
+.dashboard-stat .details .desc {
+  padding-left: 5px;
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: 0px;
+  font-weight: 300;
+  line-height: 100%;
+}
